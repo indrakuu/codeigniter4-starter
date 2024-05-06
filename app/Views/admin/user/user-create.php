@@ -76,11 +76,11 @@
 </div>
 <?= $this->endSection() ?>
 <?=$this->section('pageStyles')?>
-<link rel="stylesheet" type="text/css" href="<?= base_url('assets/libs/select2/dist/css/select2.min.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/lib/select2/dist/css/select2.min.css') ?>">
 <?= $this->endSection() ?>
 
 <?=$this->section('pageScripts')?>
-<script src="<?= base_url('assets/libs/select2/dist/js/select2.min.js') ?>"></script>
+<script src="<?= base_url('assets/lib/select2/dist/js/select2.min.js') ?>"></script>
 <script>
     $(function(){
         $('.select2').select2({

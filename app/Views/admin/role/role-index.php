@@ -66,13 +66,13 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('pageStyles')?>
-<link href="<?= base_url('assets/libs/datatables/dataTables.min.css') ?>" rel="stylesheet">
+<link href="<?= base_url('assets/lib/datatables/dataTables.min.css') ?>" rel="stylesheet">
 
 <?= $this->endSection()?>
 
 
 <?=$this->section('pageScripts')?>
-<script src="<?= base_url('assets/libs/datatables/datatables.min.js') ?>"></script>
+<script src="<?= base_url('assets/lib/datatables/datatables.min.js') ?>"></script>
 <script>
     $(document).ready(function(){
         table = $('#table').DataTable({

@@ -59,11 +59,11 @@
 <?= $this->endSection() ?>
 
 <?=$this->section('pageStyles')?>
-<link rel="stylesheet" type="text/css" href="<?= base_url('assets/libs/bootstrap-duallistbox/bootstrap-duallistbox.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/lib/bootstrap-duallistbox/bootstrap-duallistbox.css') ?>">
 <?= $this->endSection() ?>
 
 <?=$this->section('pageScripts')?>
-<script src="<?= base_url('assets/libs/bootstrap-duallistbox/jquery.bootstrap-duallistbox.js')?>"></script>
+<script src="<?= base_url('assets/lib/bootstrap-duallistbox/jquery.bootstrap-duallistbox.js')?>"></script>
 <script>
     $(function(){
         $('select[name="permission[]"]').bootstrapDualListbox();

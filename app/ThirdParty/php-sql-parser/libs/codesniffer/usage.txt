@@ -17,7 +17,7 @@ Or integrate it as external tool into Eclipse:
 * Open External tool configuration window
 * set the name to "CodeSniffer"
 * set /usr/bin/phpcs as Location
-* set --standard="${project_loc}/libs/codesniffer/PhOSCo" "${selected_resource_loc}" as Arguments
+* set --standard="${project_loc}/lib/codesniffer/PhOSCo" "${selected_resource_loc}" as Arguments
 * on the Build tab set the parameters as needed
 * click "Apply" and "Close"
 

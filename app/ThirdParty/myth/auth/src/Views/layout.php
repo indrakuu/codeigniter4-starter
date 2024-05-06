@@ -7,7 +7,7 @@
         <meta name="<?= csrf_token() ?>" content="<?= csrf_hash() ?>">
         <title><?= $this->renderSection('title') .' - '.  config('app')->appName ?></title>
         <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url('assets/images/favicon.png')?>"/>
-        <link href="<?= base_url('dist/css/style.min.css')?>" rel="stylesheet" />
+        <link href="<?= base_url('assets/css/style.min.css')?>" rel="stylesheet" />
         <style>
             body { padding-top: 5rem; }
         </style>
@@ -28,10 +28,10 @@
                 <?= $this->renderSection('main') ?>
             </div>
         </main>
-        <script src="<?= base_url('assets/libs/jquery/dist/jquery.min.js')?>"></script>
-        <script src="<?= base_url('assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js')?>"></script>
-        <script src="<?= base_url('assets/libs/toastr/build/toastr.min.js') ?>"></script>
-        <link rel="stylesheet" href="<?= base_url('assets/libs/toastr/build/toastr.min.css') ?>">
+        <script src="<?= base_url('assets/lib/jquery/dist/jquery.min.js')?>"></script>
+        <script src="<?= base_url('assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js')?>"></script>
+        <script src="<?= base_url('assets/lib/toastr/build/toastr.min.js') ?>"></script>
+        <link rel="stylesheet" href="<?= base_url('assets/lib/toastr/build/toastr.min.css') ?>">
         <script>
             $(".preloader").fadeOut();
             toastr.options = {
