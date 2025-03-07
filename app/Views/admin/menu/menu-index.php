@@ -4,7 +4,7 @@
 <?= $this->setData(compact('breadcrumb'))->include('admin/layouts/breadcumb') ?>
 <style>.fade.in{opacity: 1;}</style>
 <div class="container-fluid">
-  <?= view('admin\layouts\_message_block') ?>
+  <?= view('admin/layouts/_message_block') ?>
   <div class="row">
     <div class="col-lg-6">
       <div class="card mb-4">

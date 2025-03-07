@@ -8,6 +8,7 @@
     <meta name="<?= csrf_token() ?>" content="<?= csrf_hash() ?>">
     <?= $this->renderSection('pageStyles') ?>
     <?= $this->include('admin/layouts/style') ?>
+    
   </head>
   <body>
     <div class="preloader" style="background: rgba(0, 0, 0, 0.5);">

@@ -24,7 +24,7 @@ class PermissionController extends BaseController
                 ['title' => 'Permission', 'url_to' => '#', 'active' => true],
             ],
         ];
-        return view('admin\permission\permission-index', compact('breadcrumb'));
+        return view('admin/permission/permission-index', compact('breadcrumb'));
     }
 
     public function store()
