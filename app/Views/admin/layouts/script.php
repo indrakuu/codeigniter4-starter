@@ -1,6 +1,6 @@
 <script src="<?= base_url('assets/lib/jquery/dist/jquery.min.js')?>"></script>
 <script src="<?= base_url('assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js')?>"></script>
-<script src="<?= base_url('/dist/js/sidebarmenu.js') ?>"></script>
+<script src="<?= base_url('assets/js/sidebarmenu.js') ?>"></script>
 <script src="<?= base_url('assets/js/custom.min.js')?>"></script>
 <script src="<?= base_url('assets/lib/toastr/build/toastr.min.js') ?>"></script>
 <script src="<?= base_url('assets/lib/sweetalert2/sweetalert2.js') ?>"></script>
