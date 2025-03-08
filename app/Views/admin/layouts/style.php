@@ -7,3 +7,4 @@
 ::-webkit-scrollbar-thumb:hover { background: #555; }
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="stylesheet" href="/assets/lib/toastr/build/toastr.min.css">
